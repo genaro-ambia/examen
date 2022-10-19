@@ -36,6 +36,10 @@ app.use((request, response, next) => {
     //aqui van las cookies
     next();
 });
+/*
+const ruta1 = require('./routes/ruta1.routes');
+app.use('/ruta1', ruta1);
+*/
 
 app.use((request, response, next) => {
     response.status(404);

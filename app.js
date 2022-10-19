@@ -43,6 +43,6 @@ app.use('/ruta1', ruta1);
 
 app.use((request, response, next) => {
     response.status(404);
-    response.sendFile(path.join(__dirname,'views','error html'));
+    response.sendFile(path.join(__dirname,'views','error.html'));
 });
 app.listen(3000);

@@ -1,0 +1,38 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "examen de daw y bd",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genaro-ambia/examen.git"
+  },
+  "keywords": [
+    "examen",
+    "aiuda",
+    "isdr",
+    "daw",
+    "bd",
+    "pain"
+  ],
+  "author": "genaro ambia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/genaro-ambia/examen/issues"
+  },
+  "homepage": "https://github.com/genaro-ambia/examen#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20"
+  }
+}
